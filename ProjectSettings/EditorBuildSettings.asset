@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Scenes/Menus/Title.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/RapidFire.unity
+    path: Assets/Scenes/Finished Games/RapidFire.unity
     guid: e78d8b8dcb84a0b45aa6a65414b70989
   - enabled: 1
-    path: Assets/Scenes/Sharpshooter.unity
+    path: Assets/Scenes/Finished Games/Sharpshooter.unity
     guid: ea509fe6d791ee94f824ca100d1a215b
+  - enabled: 1
+    path: Assets/Scenes/Finished Games/Wanted!.unity
+    guid: 6b2320a02b0508744b8ef33096221c75
+  - enabled: 1
+    path: Assets/Scenes/Menus/About.unity
+    guid: a0131f61bf7c1a042a72a7ff49c8c893
   m_configObjects: {}

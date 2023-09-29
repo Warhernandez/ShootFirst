@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 713019076}
   - component: {fileID: 713019075}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1607,6 +1607,7 @@ MonoBehaviour:
   maxBullets: 1
   quota: 1
   resultsScreen: {fileID: 2135962768}
+  mainCanvas: {fileID: 713019073}
 --- !u!4 &1185281585
 Transform:
   m_ObjectHideFlags: 0

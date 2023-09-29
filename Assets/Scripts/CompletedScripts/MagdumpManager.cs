@@ -4,7 +4,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MiniGameManager : MonoBehaviour
+public class MagdumpManager : MonoBehaviour
+    //NOTE! This is the controller script for the "MagDump" Style of games, where the player will always have infinite ammo
+    //Seeing as the ammo is always inifine, the difficulty comes from the time limit and quota that the player needs to reach. 
+    //There may be a better way to do this, but for now, Having different classes for each of the "Types" of games will suffice for the prototype!
+
 {
     public TMP_Text timerText; // Reference to the UI Text element for displaying the timer.
     public TMP_Text bulletText; //Reference to the UI Text element for displaying bullets left "∞"
@@ -18,12 +22,11 @@ public class MiniGameManager : MonoBehaviour
     public int maxBullets = -1; // Set to -1 for unlimited bullets. unlimited by default.
     private int currentBullets; 
     private int score = 0; // Player's score.
-    public int quota = 1; //score needed to pass
+    public int quota; //score needed to pass
 
     private bool isGameOver = false; // Flag to check if the game is over.
 
     public GameObject resultsScreen;
-    public GameObject mainCanvas;
     private void Start()
     {
 
@@ -34,23 +37,20 @@ public class MiniGameManager : MonoBehaviour
         if (selectedDifficulty == "Easy")
         {
             // Set easy difficulty parameters.
-            maxBullets = -1; //infinite ammo
+            quota = 15;
             timeLimit = 10;
-            currentBullets = int.MaxValue; //so the game doesnt underflow and end automatically.
         }
         else if (selectedDifficulty == "Medium")
         {
             // Set medium difficulty parameters.
-            maxBullets = 5;
+            quota = 15;
             timeLimit = 7;
         }
         else if (selectedDifficulty == "Hard")
         {
-            
-            maxBullets = 3; 
+            quota = 15;
             timeLimit = 5;
         }
-
         //audioSource = GameObject.Find("PlayerAudio").GetComponent<AudioSource>();
         if (maxBullets != -1)
         {
@@ -107,7 +107,6 @@ public class MiniGameManager : MonoBehaviour
             bulletText.text = "";
             ShowResults();
         }
-
     }
 
     private bool HasBullets()
@@ -121,29 +120,16 @@ public class MiniGameManager : MonoBehaviour
 
     private void ConsumeBullet()
     {
-
         if (maxBullets != -1)
         {
             currentBullets--;
         }
-
-        //end game if out of bullets.
-        if (currentBullets == 0)
-        {
-            ShowResults();
-        }
-
     }
     // Call this method when a target is hit to increase the score.
     public void IncreaseScore(int points)
     {
         score += points;
         UpdateUI();
-
-        if (score >= quota)
-        {
-            ShowResults(); // Call a method to end the game.
-        }
     }
 
     // Update the score and timer UI elements.
@@ -169,8 +155,7 @@ public class MiniGameManager : MonoBehaviour
         {
             target.gameObject.SetActive(false); 
         }
-        //hide reg canvas
-        mainCanvas.SetActive(false);
+
         // Show the results screen.
         resultsScreen.SetActive(true);
 

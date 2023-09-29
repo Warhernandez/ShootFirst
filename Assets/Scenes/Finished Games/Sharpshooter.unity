@@ -935,6 +935,7 @@ MonoBehaviour:
   maxBullets: 1
   quota: 1
   resultsScreen: {fileID: 2135962768}
+  mainCanvas: {fileID: 713019073}
 --- !u!4 &1185281585
 Transform:
   m_ObjectHideFlags: 0

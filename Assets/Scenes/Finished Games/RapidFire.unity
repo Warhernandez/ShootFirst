@@ -647,8 +647,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443286819}
-  - component: {fileID: 443286818}
   - component: {fileID: 443286820}
+  - component: {fileID: 443286818}
   m_Layer: 0
   m_Name: MiniGameManager
   m_TagString: Untagged
@@ -665,15 +665,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 443286817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb574ce1f60e69e4a848dab398f8b015, type: 3}
+  m_Script: {fileID: 11500000, guid: 994b1433e5bb1024a895f1d1c30a7b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 606162656}
-  bulletText: {fileID: 1311472180}
-  timeLimit: 5
-  maxBullets: -1
-  quota: 15
-  resultsScreen: {fileID: 762475602}
 --- !u!4 &443286819
 Transform:
   m_ObjectHideFlags: 0
@@ -697,9 +691,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 443286817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 994b1433e5bb1024a895f1d1c30a7b66, type: 3}
+  m_Script: {fileID: 11500000, guid: 58d405c358f24a74284307d0b4bf2004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerText: {fileID: 606162656}
+  bulletText: {fileID: 1311472180}
+  timeLimit: 0
+  maxBullets: -1
+  quota: 0
+  resultsScreen: {fileID: 762475602}
 --- !u!4 &449911347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553881450152008186, guid: ef992ffa072708148a77dc4e87f7cfa8,
@@ -2815,7 +2815,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 443286820}
+      - m_Target: {fileID: 443286818}
         m_MethodName: Menu
         m_Mode: 1
         m_Arguments:

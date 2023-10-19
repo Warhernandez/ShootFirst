@@ -12,9 +12,6 @@ public class DifficultySettings : MonoBehaviour
         // Save the selected difficulty to PlayerPrefs.
         PlayerPrefs.SetString("Difficulty", difficulty);
         PlayerPrefs.Save(); // Save PlayerPrefs immediately.
-
-        // Update the displayed difficulty text.
-        difficultyText.text = "Difficulty: " + difficulty;
     }
 
     public string GetDifficulty()

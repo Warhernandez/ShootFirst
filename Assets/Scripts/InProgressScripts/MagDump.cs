@@ -12,7 +12,7 @@ public class MagDump: MonoBehaviour
     private float currentTime; // Current time left in the game.
     public int maxBullets = -1; // Set to -1 for unlimited bullets. unlimited by default.
     private int currentBullets;
-    private int score = 0; // Player's score.
+    //private int score = 0; // Player's score.
     public int quota; //score needed to pass
     private bool isGameOver = false; // Flag to check if the game is over.
 
@@ -59,7 +59,7 @@ public class MagDump: MonoBehaviour
     private void SpawnApproachingObject()
     {
         // Spawn the approaching object at a spawn point on the screen.
-        // You can set the spawn position and other properties as needed.
+        //set the spawn position and other properties as needed.
         Vector2 spawnPosition = new Vector3(0f, 0f); // Adjust the position.
         GameObject approachingObject = Instantiate(approachingObjectPrefab, spawnPosition, Quaternion.identity);
     }

@@ -6,6 +6,11 @@ public class DifficultySettings : MonoBehaviour
 {
     public TMP_Text difficultyText;// Text UI element to display the current difficulty.
 
+    void Start()
+    {
+        PlayerPrefs.SetString("Difficulty", "Normal");
+    }
+
     public void SetDifficulty(string difficulty)
     {
         //I've never used playerprefs before so if i mess this up.......... oops!

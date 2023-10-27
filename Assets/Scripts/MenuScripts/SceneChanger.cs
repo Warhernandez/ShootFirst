@@ -24,4 +24,16 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void RapidInstructions()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void SharpInstructions()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void WantedInstructions()
+    {
+        SceneManager.LoadScene(7);
+    }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class InscructionsScreen : MonoBehaviour
+public class InstructionsScreen2 : MonoBehaviour
 {
     //setup.........
     public TMP_Text Inscructions1;
@@ -29,13 +29,13 @@ public class InscructionsScreen : MonoBehaviour
         else if (selectedDifficulty == "Medium")
         {
             // Set medium difficulty parameters.
-            ammo = -1;
+            ammo = 5;
             time = 7;
         }
         else if (selectedDifficulty == "Hard")
         {
 
-            ammo = -1;
+            ammo = 3;
             time = 5;
         }
 
@@ -64,7 +64,7 @@ public class InscructionsScreen : MonoBehaviour
         if (ammo == -1)
         {
             Inscructions3.text = "Ammo: ∞ Bullets";
-            
+
         }
         else
         {

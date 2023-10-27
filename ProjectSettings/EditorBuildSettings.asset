@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/About.unity
     guid: a0131f61bf7c1a042a72a7ff49c8c893
+  - enabled: 1
+    path: Assets/Scenes/Menus/Rapid Fire Instructions.unity
+    guid: ee6301579153f7a4880311b9ad04b7c2
+  - enabled: 1
+    path: Assets/Scenes/Menus/Sharpshooter Instructions 1.unity
+    guid: d68dd86d65023dd4e847b1179f168ce0
+  - enabled: 1
+    path: Assets/Scenes/Menus/Wanted Instructions.unity
+    guid: a0287cfaf11cd9b419401abbf2e292a2
   m_configObjects: {}

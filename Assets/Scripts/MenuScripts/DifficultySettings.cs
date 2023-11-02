@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class DifficultySettings : MonoBehaviour
 {
-    public TMP_Text difficultyText;// Text UI element to display the current difficulty.
 
     void Start()
     {

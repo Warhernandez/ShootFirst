@@ -634,11 +634,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inscructions1: {fileID: 1037904013}
-  Delay1: 1
+  Delay1: 0.5
   Inscructions2: {fileID: 2142248675}
-  Delay2: 2
+  Delay2: 1.5
   Inscructions3: {fileID: 1128124086}
-  Delay3: 3
+  Delay3: 2.5
 --- !u!4 &1221643638
 Transform:
   m_ObjectHideFlags: 0
@@ -850,7 +850,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1221643639}
-        m_MethodName: Scene3
+        m_MethodName: Wanted
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

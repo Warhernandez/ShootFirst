@@ -28,7 +28,7 @@ public class MiniGameManager : MonoBehaviour
     {
 
         // Get the selected difficulty from PlayerPrefs. I hope I'm doing this right.
-        string selectedDifficulty = PlayerPrefs.GetString("Difficulty", "Normal");
+        string selectedDifficulty = PlayerPrefs.GetString("Difficulty", "Medium");
 
         // Adjust game parameters based on difficulty.
         if (selectedDifficulty == "Easy")

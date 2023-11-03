@@ -7,7 +7,7 @@ public class DifficultySettings : MonoBehaviour
 
     void Start()
     {
-        PlayerPrefs.SetString("Difficulty", "Normal");
+        PlayerPrefs.SetString("Difficulty", "Medium");
     }
 
     public void SetDifficulty(string difficulty)

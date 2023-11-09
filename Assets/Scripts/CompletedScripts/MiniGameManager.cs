@@ -81,6 +81,15 @@ public class MiniGameManager : MonoBehaviour
                         Target target = hit.collider.GetComponent<Target>();
                         if (target != null)
                         {
+                            // Check if the target is a "BadTarget."
+                            if (target.CompareTag("BadTarget"))
+                            {
+                                // Game over logic (e.g., show results screen).
+                                isGameOver = true;
+                                timerText.text = "";
+                                bulletText.text = "";
+                                ShowResults();
+                            }
                             // The ray hit a target yaaaaay!!!
                             target.HitTarget(); // Handle the target hit.
 

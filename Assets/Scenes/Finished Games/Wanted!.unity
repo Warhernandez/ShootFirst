@@ -292,9 +292,10 @@ GameObject:
   - component: {fileID: 35541861}
   - component: {fileID: 35541860}
   - component: {fileID: 35541859}
+  - component: {fileID: 35541862}
   m_Layer: 0
   m_Name: Civilian (1)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,6 +399,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &35541862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35541857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &99123753
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,9 +424,10 @@ GameObject:
   - component: {fileID: 99123757}
   - component: {fileID: 99123756}
   - component: {fileID: 99123755}
+  - component: {fileID: 99123758}
   m_Layer: 0
   m_Name: Civilian (8)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,6 +531,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &99123758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99123753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &180323555
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,9 +556,10 @@ GameObject:
   - component: {fileID: 180323559}
   - component: {fileID: 180323558}
   - component: {fileID: 180323557}
+  - component: {fileID: 180323560}
   m_Layer: 0
   m_Name: Civilian (7)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -634,6 +663,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &180323560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180323555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &225602263
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +837,7 @@ RectTransform:
   m_GameObject: {fileID: 238094021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 649261937}
   m_Father: {fileID: 2135962772}
@@ -803,7 +845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -130.9}
+  m_AnchoredPosition: {x: 0, y: -166}
   m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &238094023
@@ -909,9 +951,10 @@ GameObject:
   - component: {fileID: 409282986}
   - component: {fileID: 409282985}
   - component: {fileID: 409282984}
+  - component: {fileID: 409282987}
   m_Layer: 0
   m_Name: Civilian (2)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1015,6 +1058,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &409282987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409282982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &444024075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,9 +1702,10 @@ GameObject:
   - component: {fileID: 1215164857}
   - component: {fileID: 1215164856}
   - component: {fileID: 1215164855}
+  - component: {fileID: 1215164858}
   m_Layer: 0
   m_Name: Civilian (5)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1752,6 +1809,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1215164858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215164853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &1224247334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,9 +1834,10 @@ GameObject:
   - component: {fileID: 1224247338}
   - component: {fileID: 1224247337}
   - component: {fileID: 1224247336}
+  - component: {fileID: 1224247339}
   m_Layer: 0
   m_Name: Civilian (4)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1870,6 +1941,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1224247339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224247334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &1285921537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,9 +1966,10 @@ GameObject:
   - component: {fileID: 1285921541}
   - component: {fileID: 1285921540}
   - component: {fileID: 1285921539}
+  - component: {fileID: 1285921542}
   m_Layer: 0
   m_Name: Civilian
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1988,6 +2073,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1285921542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285921537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &1309475924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,9 +2098,10 @@ GameObject:
   - component: {fileID: 1309475928}
   - component: {fileID: 1309475927}
   - component: {fileID: 1309475926}
+  - component: {fileID: 1309475929}
   m_Layer: 0
   m_Name: Civilian (3)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2106,6 +2205,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1309475929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309475924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &1472406382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,7 +2252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 113}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472406384
@@ -2251,9 +2363,10 @@ GameObject:
   - component: {fileID: 1545901714}
   - component: {fileID: 1545901713}
   - component: {fileID: 1545901712}
+  - component: {fileID: 1545901715}
   m_Layer: 0
   m_Name: Civilian (9)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2357,6 +2470,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1545901715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545901710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &1946102208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,9 +2495,10 @@ GameObject:
   - component: {fileID: 1946102212}
   - component: {fileID: 1946102211}
   - component: {fileID: 1946102210}
+  - component: {fileID: 1946102213}
   m_Layer: 0
   m_Name: Civilian (6)
-  m_TagString: Untagged
+  m_TagString: BadTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2475,6 +2602,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1946102213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946102208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1dc78266d3606440928214b7c026e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 1
 --- !u!1 &2135962768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,7 +2633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2135962769
 MonoBehaviour:
   m_ObjectHideFlags: 0

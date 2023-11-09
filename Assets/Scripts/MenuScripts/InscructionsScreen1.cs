@@ -14,6 +14,7 @@ public class InscructionsScreen1 : MonoBehaviour
     public float Delay3 = 3.0f;
     private int ammo;
     private int time;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +53,7 @@ public class InscructionsScreen1 : MonoBehaviour
     void DisplayText1()
     {
         Inscructions1.enabled = true;
+
     }
     void DisplayText2()
     {

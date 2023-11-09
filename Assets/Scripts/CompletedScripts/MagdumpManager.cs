@@ -82,8 +82,8 @@ public class MagdumpManager : MonoBehaviour
                         if (target != null)
                         {
                             // The ray hit a target yaaaaay!!!
-                            target.HitTarget(); // Handle the target hit.
-
+                            // target.HitTarget(); // Handle the target hit.
+                            target.Shatter();
                             // Increase the player's score (Will pretty much always be 1, but juuust to be safe...)
                             IncreaseScore(target.scoreValue);
                         }

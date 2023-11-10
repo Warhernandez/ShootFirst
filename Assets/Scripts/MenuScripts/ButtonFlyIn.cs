@@ -7,6 +7,7 @@ public class ButtonFlyIn : MonoBehaviour
 {
     public Vector2 startPos;  // The off-screen starting position
     public Vector2 endPos;    // The on-screen ending position
+    public Vector2 outPos;    //fly out position
     public float duration = 1.0f;  // Animation duration
 
     private Button button;
@@ -28,5 +29,12 @@ public class ButtonFlyIn : MonoBehaviour
         // Animate the button from the off-screen position to the on-screen position
         RectTransform rectTransform = button.GetComponent<RectTransform>();
         LeanTween.move(rectTransform, endPos, duration).setEase(LeanTweenType.easeOutExpo);
+    }
+
+    public void FlyOut()
+    {
+        // Animate the button from the off-screen position to the on-screen position
+        RectTransform rectTransform = button.GetComponent<RectTransform>();
+        LeanTween.move(rectTransform, outPos, duration).setEase(LeanTweenType.easeOutExpo);
     }
 }

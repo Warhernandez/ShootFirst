@@ -52,11 +52,19 @@ public class InstructionsScreen2 : MonoBehaviour
     void DisplayText1()
     {
         Inscructions1.enabled = true;
+
+        LeanTween.scale(Inscructions1.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f)
+        .setEase(LeanTweenType.easeInOutBack) // 
+        .setOnComplete(() => ScaleDownText(Inscructions1.gameObject));
     }
     void DisplayText2()
     {
         Inscructions2.text = "Time: " + time.ToString("F1") + " Seconds";
         Inscructions2.enabled = true;
+
+        LeanTween.scale(Inscructions2.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f)
+        .setEase(LeanTweenType.easeInOutBack) // 
+        .setOnComplete(() => ScaleDownText(Inscructions2.gameObject));
 
     }
     void DisplayText3()
@@ -72,5 +80,15 @@ public class InstructionsScreen2 : MonoBehaviour
         }
 
         Inscructions3.enabled = true;
+
+        LeanTween.scale(Inscructions3.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f)
+        .setEase(LeanTweenType.easeInOutBack) // 
+        .setOnComplete(() => ScaleDownText(Inscructions3.gameObject));
+    }
+
+    void ScaleDownText(GameObject textObject)
+    {
+        LeanTween.scale(textObject, Vector3.one, 0.5f)
+            .setEase(LeanTweenType.easeInOutBack); // You can change the ease type as needed
     }
 }

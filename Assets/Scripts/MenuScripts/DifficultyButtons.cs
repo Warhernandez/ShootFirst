@@ -34,7 +34,7 @@ public class DifficultyButtons : MonoBehaviour
         flyIn = GetComponent<ButtonFlyIn>();
         foreach (Button button in FindObjectsOfType<Button>())
         {
-            flyIn.FlyOut();
+             flyIn.FlyOut();
         }
             
 

@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 1dc11041607e1514486bc9f85d69ad9e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fluta
+  fontNames:
+  - Fluta
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 38a0a1d4b8093524c9a124069e260d6b, type: 3}
+  - {fileID: 12800000, guid: d444ec2a3fe58074c8fe1eff803e279b, type: 3}
+  - {fileID: 12800000, guid: 0d8821baf8487b1498f6182cddc5fdfd, type: 3}
+  - {fileID: 12800000, guid: 03e38cbe1e4f7984c8fcd6f1a7d5373d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

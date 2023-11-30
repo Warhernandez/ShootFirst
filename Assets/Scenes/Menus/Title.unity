@@ -379,7 +379,7 @@ RectTransform:
   m_GameObject: {fileID: 289746897}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.7875, z: 1}
   m_Children: []
   m_Father: {fileID: 1891520223}
   m_RootOrder: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 8.151337, y: 0, z: 7.770096, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -544,8 +544,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Rapid Fire: Destroy as many objects as you can!!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
+  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1930,7 +1931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 648, y: -423}
+  m_AnchoredPosition: {x: 625, y: -365}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318889921
@@ -1954,8 +1955,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: PROTOTYPE - NOTHING IS FINAL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f59bd9af07b254f459b40a177d33e08d, type: 2}
+  m_sharedMaterial: {fileID: 8180611980799655573, guid: f59bd9af07b254f459b40a177d33e08d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2138,7 +2140,7 @@ RectTransform:
   m_GameObject: {fileID: 1398634160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4746, y: 5.350828, z: 2.4746}
+  m_LocalScale: {x: 2.1708627, y: 11.520029, z: 0.75838}
   m_Children:
   - {fileID: 1899627186}
   m_Father: {fileID: 596029303}
@@ -2146,7 +2148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -684, y: 334}
+  m_AnchoredPosition: {x: -736, y: 342}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398634162
@@ -2222,8 +2224,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d379da453a03c45489a4cc7213658b50, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2807,8 +2809,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Wanted!: Shoot the odd one out!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
+  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3254,7 +3257,7 @@ RectTransform:
   m_GameObject: {fileID: 1891520222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.020275198, y: 0.020193143, z: 0.009260562}
+  m_LocalScale: {x: 0.022609761, y: 0.025372684, z: 0.011635897}
   m_Children:
   - {fileID: 289746898}
   m_Father: {fileID: 1566157928}
@@ -3412,7 +3415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3547,8 +3550,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Sharpshooter: You got limited ammo, make it count!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
+  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

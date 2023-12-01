@@ -1290,7 +1290,6 @@ GameObject:
   - component: {fileID: 1869466157}
   - component: {fileID: 1869466161}
   - component: {fileID: 1869466162}
-  - component: {fileID: 1869466163}
   m_Layer: 0
   m_Name: Fly(temp)
   m_TagString: Untagged
@@ -1436,22 +1435,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.4334133, y: 3.1994882}
   m_EdgeRadius: 0
---- !u!95 &1869466163
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869466156}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 92c7f9a57de1fab488abfded35ca41f2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

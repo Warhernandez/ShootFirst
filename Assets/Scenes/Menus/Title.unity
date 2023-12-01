@@ -243,8 +243,8 @@ MonoBehaviour:
   m_text: "SELECT YOUR GAME! \\t SELECT YOUR GAME! \\t SELECT YOUR GAME! \\t SELECT
     YOUR GAME! \t\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c38cae2f3fd433641bc600f46b371dbe, type: 2}
-  m_sharedMaterial: {fileID: 1518415662731286387, guid: c38cae2f3fd433641bc600f46b371dbe,
+  m_fontAsset: {fileID: 11400000, guid: f59bd9af07b254f459b40a177d33e08d, type: 2}
+  m_sharedMaterial: {fileID: 8180611980799655573, guid: f59bd9af07b254f459b40a177d33e08d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2125,6 +2125,7 @@ GameObject:
   - component: {fileID: 1398634164}
   - component: {fileID: 1398634163}
   - component: {fileID: 1398634162}
+  - component: {fileID: 1398634165}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2149,7 +2150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -736, y: 342}
+  m_AnchoredPosition: {x: -750, y: 350}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398634162
@@ -2243,6 +2244,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398634160}
   m_CullTransparentMesh: 0
+--- !u!114 &1398634165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398634160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5890b16fa6c96fe4e9fb22e5ba507c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 2000, y: 350}
+  endPos: {x: -750, y: 350}
+  outPos: {x: -2000, y: 350}
+  duration: 1
 --- !u!1 &1566157927
 GameObject:
   m_ObjectHideFlags: 0

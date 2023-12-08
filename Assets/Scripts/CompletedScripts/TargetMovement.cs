@@ -31,7 +31,7 @@ public class TargetMovement : MonoBehaviour
     {
         float distanceX = lookAtPosition.x - transform.position.x;
         float distanceY = lookAtPosition.y - transform.position.y;
-        float angle = Mathf.Atan2(distanceX, distanceY) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(distanceY, distanceX) * Mathf.Rad2Deg;
 
         Quaternion endRotation = Quaternion.AngleAxis(angle, Vector3.back);
         transform.rotation = Quaternion.Slerp(transform.rotation, endRotation, Time.deltaTime * rotateSpeed);

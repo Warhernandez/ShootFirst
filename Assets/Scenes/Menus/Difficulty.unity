@@ -1586,6 +1586,7 @@ GameObject:
   - component: {fileID: 1628508531}
   - component: {fileID: 1628508530}
   - component: {fileID: 1628508532}
+  - component: {fileID: 1628508533}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1690,6 +1691,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1176245037}
   scrollSpeed: 5
+--- !u!114 &1628508533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628508525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6a2d851c1d1bf46b9590b2457d1551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootParticlesPrefab: {fileID: 8339650415474414388, guid: d356e13040ce4dc4a9022674f980a9f0,
+    type: 3}
+  poolSize: 25
 --- !u!1 &1858982832
 GameObject:
   m_ObjectHideFlags: 0

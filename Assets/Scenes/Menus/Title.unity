@@ -443,8 +443,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2271,6 +2271,8 @@ GameObject:
   - component: {fileID: 1566157928}
   - component: {fileID: 1566157929}
   - component: {fileID: 1566157930}
+  - component: {fileID: 1566157931}
+  - component: {fileID: 1566157932}
   m_Layer: 0
   m_Name: pointy
   m_TagString: Untagged
@@ -2361,6 +2363,52 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1566157931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566157927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a9b82be74b7d4588945aedfc5b90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 289746899}
+  clickedSprite: {fileID: 21300000, guid: 57cb89e350ab5ad438d313181119e49e, type: 3}
+  dialogueOptions:
+  - Ouch! Hey, that one kinda hurt!
+  - Friendly fire will not be tolerated!
+  - Looks like you're trying to shoot me! Want some help with your aim?
+  - Shoot the windows! Not ME!
+  - If you've got a problem with me you could have just said something...
+--- !u!61 &1566157932
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566157927}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1020658, y: -0.25540257}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.75, y: 7.51}
+    newSize: {x: 6.75, y: 7.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.495378, y: 7.138275}
+  m_EdgeRadius: 0
 --- !u!1 &1596971764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,8 +3350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 786.00464, y: 270.00034}
-  m_SizeDelta: {x: 282.85925, y: 133.33759}
+  m_AnchoredPosition: {x: 772.3, y: 266.7}
+  m_SizeDelta: {x: 310.33502, y: 140.01025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891520224
 MonoBehaviour:

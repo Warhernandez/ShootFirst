@@ -923,7 +923,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9bbe37cbde84d0b45b75f3ae1c5091e6, type: 3}
   m_Color: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 1}
   m_FlipX: 0
@@ -1093,6 +1093,7 @@ GameObject:
   - component: {fileID: 1185281585}
   - component: {fileID: 1185281584}
   - component: {fileID: 1185281586}
+  - component: {fileID: 1185281587}
   m_Layer: 0
   m_Name: MiniGameController
   m_TagString: Untagged
@@ -1145,6 +1146,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994b1433e5bb1024a895f1d1c30a7b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1185281587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185281583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6a2d851c1d1bf46b9590b2457d1551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootParticlesPrefab: {fileID: 8339650415474414388, guid: d356e13040ce4dc4a9022674f980a9f0,
+    type: 3}
+  poolSize: 10
 --- !u!1 &1790208521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1378,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1567409aac2017249927f93455102bdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

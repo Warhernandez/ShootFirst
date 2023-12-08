@@ -542,7 +542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rapid Fire: Destroy as many objects as you can!!'
+  m_text: Destroy as many objects as you can!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
   m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PROTOTYPE - NOTHING IS FINAL
+  m_text: DEMO- NOTHING IS FINAL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f59bd9af07b254f459b40a177d33e08d, type: 2}
   m_sharedMaterial: {fileID: 8180611980799655573, guid: f59bd9af07b254f459b40a177d33e08d,
@@ -2632,6 +2632,7 @@ GameObject:
   - component: {fileID: 1628508531}
   - component: {fileID: 1628508530}
   - component: {fileID: 1628508528}
+  - component: {fileID: 1628508532}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2724,6 +2725,21 @@ MonoBehaviour:
   targetObject: {fileID: 0}
   scaleAmount: 1.2
   animationDuration: 0.2
+--- !u!114 &1628508532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628508525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6a2d851c1d1bf46b9590b2457d1551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootParticlesPrefab: {fileID: 8339650415474414388, guid: d356e13040ce4dc4a9022674f980a9f0,
+    type: 3}
+  poolSize: 20
 --- !u!1 &1749285691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,7 +2879,7 @@ RectTransform:
   m_GameObject: {fileID: 1780778300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9875, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1219545427}
   m_RootOrder: 0
@@ -2892,7 +2908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Wanted!: Shoot the odd one out!'
+  m_text: Shoot the wanted criminal!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
   m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
@@ -3611,7 +3627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.800003}
+  m_AnchoredPosition: {x: 11, y: 2.800003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1903584587
@@ -3633,7 +3649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sharpshooter: You got limited ammo, make it count!'
+  m_text: You got limited ammo, make it count!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
   m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
@@ -3697,7 +3713,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 26.082033, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

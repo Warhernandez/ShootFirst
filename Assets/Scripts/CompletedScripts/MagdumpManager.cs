@@ -12,9 +12,6 @@ public class MagdumpManager : MonoBehaviour
 {
     public TMP_Text timerText; // Reference to the UI Text element for displaying the timer.
     public TMP_Text bulletText; //Reference to the UI Text element for displaying bullets left "∞"
-
-    //public AudioClip shootingSound; // Reference to the shooting sound.
-    //private AudioSource audioSource; // Reference to the AudioSource component.
     //minigame stats and stuff, time and bullet count
 
     public float timeLimit; // Time limit for the game in seconds. Varies from game to game!
@@ -70,7 +67,8 @@ public class MagdumpManager : MonoBehaviour
                 //audioSource.PlayOneShot(shootingSound);
                 if (HasBullets()) // Check if the player has bullets.
                 {
-
+                    
+                  
                     // Create a ray from the mouse position.
                     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);

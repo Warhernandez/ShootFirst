@@ -4,6 +4,7 @@ public class Target : MonoBehaviour
 {
     public int scoreValue = 1; // The score value to give the player when the target is hit.
     private Explodable Explodable;
+    //public Animator animator;
 
     private void Start()
     {
@@ -11,6 +12,7 @@ public class Target : MonoBehaviour
     }
     public void HitTarget()
     {
+        //PlayHitAnimation();
         //For handling animations and stuff later down the line.
         gameObject.SetActive(false);
     }

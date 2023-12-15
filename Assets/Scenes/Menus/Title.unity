@@ -411,8 +411,9 @@ MonoBehaviour:
   m_text: "It looks like you're trying to play. Would you like help with that? \nClick
     here!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f118c357206a77c429889ec738d08175, type: 2}
+  m_sharedMaterial: {fileID: -4502279660160930615, guid: f118c357206a77c429889ec738d08175,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -544,8 +545,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Destroy as many objects as you can!!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
-  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+  m_fontAsset: {fileID: 11400000, guid: f118c357206a77c429889ec738d08175, type: 2}
+  m_sharedMaterial: {fileID: -4502279660160930615, guid: f118c357206a77c429889ec738d08175,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2633,6 +2634,8 @@ GameObject:
   - component: {fileID: 1628508530}
   - component: {fileID: 1628508528}
   - component: {fileID: 1628508532}
+  - component: {fileID: 1628508534}
+  - component: {fileID: 1628508533}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2740,6 +2743,115 @@ MonoBehaviour:
   shootParticlesPrefab: {fileID: 8339650415474414388, guid: d356e13040ce4dc4a9022674f980a9f0,
     type: 3}
   poolSize: 20
+--- !u!114 &1628508533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628508525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fda046e58c31d3468b5aee8aa6c5f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingSound: {fileID: 8300000, guid: 0a9f3077ef400c344a85f34f4386ad30, type: 3}
+--- !u!82 &1628508534
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628508525}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 01dda8cc4a65283409d2a2ca1dc8f63d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1749285691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2910,8 +3022,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Shoot the wanted criminal!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
-  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+  m_fontAsset: {fileID: 11400000, guid: f118c357206a77c429889ec738d08175, type: 2}
+  m_sharedMaterial: {fileID: -4502279660160930615, guid: f118c357206a77c429889ec738d08175,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3651,8 +3763,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You got limited ammo, make it count!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d542c3170430b6d4d9a87ec3c65ded8a, type: 2}
-  m_sharedMaterial: {fileID: 924973522058316106, guid: d542c3170430b6d4d9a87ec3c65ded8a,
+  m_fontAsset: {fileID: 11400000, guid: f118c357206a77c429889ec738d08175, type: 2}
+  m_sharedMaterial: {fileID: -4502279660160930615, guid: f118c357206a77c429889ec738d08175,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

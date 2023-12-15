@@ -1007,8 +1007,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c38cae2f3fd433641bc600f46b371dbe, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f118c357206a77c429889ec738d08175, type: 2}
+  m_sharedMaterial: {fileID: -4502279660160930615, guid: f118c357206a77c429889ec738d08175,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1091,9 +1092,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1185281585}
-  - component: {fileID: 1185281584}
   - component: {fileID: 1185281586}
   - component: {fileID: 1185281587}
+  - component: {fileID: 1185281589}
+  - component: {fileID: 1185281588}
+  - component: {fileID: 1185281584}
   m_Layer: 0
   m_Name: MiniGameController
   m_TagString: Untagged
@@ -1110,13 +1113,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185281583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb574ce1f60e69e4a848dab398f8b015, type: 3}
+  m_Script: {fileID: 11500000, guid: 2598d5a298544164abf309ae48a1048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 225602266}
   bulletText: {fileID: 444024076}
-  timeLimit: 5
-  maxBullets: 1
+  SplattingSound: {fileID: 8300000, guid: 1fc6713a888db1948b1b2f27b0c745d1, type: 3}
+  BuzzingSound: {fileID: 8300000, guid: 69c7794dd7e30aa4f9fb8ce99236445a, type: 3}
+  timeLimit: 7
+  maxBullets: -1
   quota: 1
   resultsScreen: {fileID: 282161925}
   mainCanvas: {fileID: 713019073}
@@ -1161,6 +1166,115 @@ MonoBehaviour:
   shootParticlesPrefab: {fileID: 8339650415474414388, guid: d356e13040ce4dc4a9022674f980a9f0,
     type: 3}
   poolSize: 10
+--- !u!82 &1185281588
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185281583}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 801f88f6d5347ba419386dc272678dae, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1185281589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185281583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fda046e58c31d3468b5aee8aa6c5f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingSound: {fileID: 8300000, guid: 0a9f3077ef400c344a85f34f4386ad30, type: 3}
 --- !u!1 &1790208521
 GameObject:
   m_ObjectHideFlags: 0
